@@ -1,0 +1,57 @@
+.addMovieOverlay {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.addMovieModal {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    padding: 25px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.addMovieModal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addMovieModal label {
+    margin-top: 10px;
+}
+
+.addMovieModal input,
+.addMovieModal textarea,
+.addMovieModal select {
+    padding: 10px;
+    margin-top: 5px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.addMovieModal textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.addMovieModal button {
+    padding: 10px;
+    margin-top: 15px;
+
+    background-color: hsl(0, 0%, 71%);
+    border: 1px solid black;
+    border-radius: 5px;
+
+    cursor: pointer;
+}

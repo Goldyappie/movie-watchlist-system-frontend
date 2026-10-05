@@ -1,0 +1,110 @@
+.moviesOverlay {
+    min-height: 100vh;
+    padding: 30px;
+
+    background-color: hsl(0, 0%, 95%);
+}
+
+.moviesModal {
+    width: 800px;
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.moviesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.moviesHeader h2 {
+    margin: 0;
+}
+
+.moviesHeader button {
+    padding: 10px 15px;
+
+    background-color: hsl(0, 0%, 71%);
+    border: 1px solid black;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.movieList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+.movieItem {
+    padding: 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.movieItem h3 {
+    margin-top: 0;
+}
+
+.movieItem p {
+    margin: 5px 0;
+}
+
+.movieList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+.movieItem {
+    padding: 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.movieItem h3 {
+    margin-top: 0;
+}
+
+.movieItem p {
+    margin: 5px 0;
+}
+
+.movieButtons {
+    display: flex;
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+.movieButtons button {
+    padding: 8px 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.movieButtons button:first-child {
+    background-color: hsl(0, 0%, 85%);
+}
+
+.movieButtons button:last-child {
+    background-color: hsl(0, 0%, 71%);
+}
